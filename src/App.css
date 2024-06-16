@@ -1,38 +1,72 @@
 .App {
+  margin-top: 30px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column ;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+input{
+  border: solid 1px gray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 7px;
+}
+.education{
+  padding: 12px;
+}
+.remove-btn{
+  margin-left: 12px;
+  border: solid 1px red;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background: transparent;
+  color: red;
+}
+.sub-btn{
+  color: green;
+  border: solid 1px #00ff40c9;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background: transparent; 
+}
+.add-btn:hover{
+  background: rgba(0, 0, 255, 0.428);
   color: white;
+  border: solid 1px transparent;
+
+}
+.sub-btn:hover{
+  background: rgba(13, 255, 0, 0.28);
+  color: rgb(0, 0, 0);
+  border: solid 1px transparent;
+
+}
+.remove-btn:hover{
+  background: rgba(255, 0, 0, 0.428);
+  color: white;
+  border: solid 1px transparent;
+
+}
+button{
+  transition: 0.3s;
+  cursor: pointer;
+}
+.add-btn{
+  border: solid 1px #6600ffc9;
+  border-radius: 5px;
+  margin: 15px;
+  color: rgba(0, 0, 255, 0.548);
+  padding: 5px 10px 5px 10px;
+  background: transparent;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-contant{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
 }
